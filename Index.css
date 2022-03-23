@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Manrope:wght@200&family=Playfair+Display&family=Raleway:wght@100;400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    overflow: auto;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 33px 43px;
+}
+nav ul li a{
+    color: orange;
+    text-decoration: none;
+}
+.btn{
+    width: 120px;
+    height:40px;
+    border-radius: 10px;
+}
+.time p{
+   font-size: 30px;
+   font-family: Raleway, sans-serif;
+}
+.time{
+    position:absolute;
+    left: 200px;
+    background-color: rgb(85, 87, 199);
+    border-radius: 50px;
+}
+#timing{
+    font-size: 100px;
+    font-family: Manrope, cursive;
+}
