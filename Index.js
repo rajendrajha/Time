@@ -20,13 +20,13 @@
 setInterval(() => {
     let a = new Date();
     a1=(a.getHours())
-    console.log(a1)
+   
     let b = new Date()
     b1= b.getMinutes()
-    console.log(b1)
+    
     let c = new Date()
     c1= c.getSeconds()
-    console.log(c1)
+    
     n= a1+":"+b1+":"+c1
     n1= a.toLocaleDateString()
     document.getElementById('timing').innerHTML= n+" on "+ n1;
